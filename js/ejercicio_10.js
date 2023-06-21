@@ -3,14 +3,16 @@
 //nombre completo (nombre y apellidos) de la persona a modo de string.
 
 let persona = {
-    'nombre': '',
-    'apellidos': '',
+    'nombre': 'Juan',
+    'apellidos': 'Pedro',
     'edad': 25,
-    'dirección': '',
-    'ciudad': '',
-    'país': ''
+    'dirección': 'C/ Calle Real',
+    'ciudad': 'Madrid',
+    'país': 'España'
 };
 
-function personaInfo(persona) {
-    
+function personaNombres(persona) {
+    console.log(persona.nombre + ' ' + persona.apellidos);
 }
+
+personaNombres(persona);
